@@ -1,0 +1,68 @@
+/* Rainbow Hover Effect */
+.rainbow-title {
+    background-image: linear-gradient(
+      90deg,
+      #ff7300,
+    
+      #a200ff
+    );
+    background-size: 300% 300%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .rainbow-title:hover {
+    background-position: 100% 100%;
+  }
+  
+  /* Search Bar Container */
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+  }
+  
+  /* Search Bar */
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  /* Input Field */
+  .search-input {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  /* Search Button */
+  .search-button {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #2563eb;
+  }
+  

@@ -41,3 +41,10 @@
     -->
   </body>
 </html>
+
+<script>
+  var path = window.location.pathname;
+  if (!path.startsWith("/my-app")) {
+    window.location.replace("/my-app" + path);
+  }
+</script>

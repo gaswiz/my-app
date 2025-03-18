@@ -1,0 +1,89 @@
+.footer-container {
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  /* Title */
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #facc15;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Structure Code Block */
+  .code-block {
+    background-color: #111827;
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: #50fa7b;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.6;
+    border-left: 4px solid #facc15;
+  }
+  
+  .folder {
+    color: #8be9fd;
+    font-weight: bold;
+  }
+  
+  .file {
+    color: #50fa7b;
+  }
+  
+  .desc {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+  }
+  
+  /* Links */
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 6px;
+  }
+  
+  .footer-links a {
+    color: #facc15;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Highlighted Username */
+  .highlight {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,78 @@
+/* Overall Page Background */
+.restaurant-list-container {
+    background-color: #111827; /* ✅ Dark mode background */
+    padding: 40px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Restaurant List */
+  .restaurant-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Card Style */
+  .restaurant-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+    background-color: #374151;
+  }
+  
+  /* Image Style */
+  .restaurant-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Text */
+  .restaurant-details {
+    flex: 1;
+    color: white;
+    text-align: left;
+  }
+  
+  .restaurant-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .restaurant-details p {
+    font-size: 16px;
+  }
+  
+  .rating {
+    font-weight: bold;
+    color: #facc15; /* Yellow */
+  }
+  
+  .no-results {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
