@@ -1,7 +1,3 @@
-Here's a **professional and well-structured** `README.md` file for your project. This **explains what you've done so far**, the **purpose of the project**, and **mentions that it's an exercise from Metropolitan College**.
-
----
-
 ### **📌 README.md – React App Deployment Exercise**  
 **Metropolitan College - Web Development Exercise**  
 
@@ -133,11 +129,3 @@ This project was developed as part of an exercise at **Metropolitan College** by
 - 📘 **GitHub Actions**: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)  
 - 📘 **Deploying React Apps**: [https://create-react-app.dev/docs/deployment/](https://create-react-app.dev/docs/deployment/)  
 
----
-
-This `README.md` will ensure that **anyone visiting your repository understands**:  
-✅ The **purpose of the project**  
-✅ How to **run, build, and deploy** the React app  
-✅ The **learning outcomes** from this exercise  
-
-Let me know if you'd like any modifications! 🚀🔥
