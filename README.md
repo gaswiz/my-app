@@ -19,7 +19,7 @@ The app is built using **React.js**, **Framer Motion** for animations, and **CSS
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **React.js** ⚛ - Frontend framework
 - **Framer Motion**  - For smooth animations
