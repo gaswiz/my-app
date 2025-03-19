@@ -1,0 +1,67 @@
+/* Admin Dashboard Container */
+.admin-dashboard {
+    background-color: #111827;
+    color: white;
+    padding: 40px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Title */
+.admin-dashboard h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+.admin-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ffcc00;
+}
+
+/* Restaurant Availability Table */
+.restaurant-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.status-card {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Availability Badges */
+.badge {
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Colors for availability */
+.available {
+    background-color: green;
+    color: white;
+}
+
+.limited {
+    background-color: orange;
+    color: black;
+}
+
+.sold-out {
+    background-color: red;
+    color: white;
+}

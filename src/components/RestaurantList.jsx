@@ -1,40 +1,30 @@
-import { motion } from "framer-motion";
-import "./RestaurantList.css"; // ✅ Import styles
+import React from "react";
+import "./RestaurantList.css"; 
 
-export default function RestaurantList({ restaurants }) {
+const RestaurantList = ({ restaurants }) => {
   return (
-    <div className="restaurant-list-container">
-      {restaurants.length > 0 && <h2 className="section-title">Search Results</h2>}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="restaurant-list"
-      >
-        {restaurants.length > 0 ? (
-          restaurants.map((r, index) => (
-            <motion.div
-              key={index}
-              className="restaurant-card"
-              whileHover={{ scale: 1.05 }} // ✅ Fancy hover effect
-              transition={{ duration: 0.2 }}
-            >
-              <img
-                src={r.image}
-                alt={r.name}
-                className="restaurant-image"
-              />
-              <div className="restaurant-details">
-                <h3>{r.name}</h3>
-                <p>{r.description}</p>
-                <p className="rating">{r.rating}</p>
-              </div>
-            </motion.div>
-          ))
-        ) : (
-          <p className="no-results">No restaurants found. Try another search.</p>
-        )}
-      </motion.div>
+    <div className="restaurant-list">
+      {restaurants.length === 0 ? (
+        <p>No restaurants found.</p>
+      ) : (
+        restaurants.map((restaurant, index) => (
+          <div key={index} className="restaurant-card">
+            <img 
+              src={restaurant.image} 
+              alt={restaurant.name} 
+              className="restaurant-image"
+              onError={(e) => e.target.src = "https://via.placeholder.com/400x300?text=Image+Not+Available"}
+            />
+            <div className="restaurant-info">
+              <h3>{restaurant.name}</h3>
+              <p>{restaurant.description}</p>
+              <span className="rating">{restaurant.rating}</span>
+            </div>
+          </div>
+        ))
+      )}
     </div>
   );
-}
+};
+
+export default RestaurantList;
