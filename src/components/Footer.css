@@ -21,6 +21,8 @@
     padding: 20px;
     min-width: 300px;
     text-align: left;
+    color: white; 
+    font-weight: 500;
   }
   
   /* Title */

@@ -21,7 +21,7 @@ const restaurantData = {
     { name: "Baklava Bliss", booked: 5 },
     { name: "Mediterraneo", booked: 2 },
     { name: "Meze House", booked: 0 },
-    { name: "Brunch Spot", booked: 10 },
+    { name: "Brunch Spot", booked: 0 },
   ],
 };
 

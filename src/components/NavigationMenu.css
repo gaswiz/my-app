@@ -39,6 +39,10 @@
     cursor: pointer;
 }
 
+.nav-title {
+    font-weight: 1000;
+}
+
 /* Popup Overlay */
 .popup-overlay {
     position: fixed;
